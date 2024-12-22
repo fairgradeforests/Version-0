@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="http://schemas.android.com/apk/res/android">
+
+    <string name="app_name">C5V Free</string>
+    <string name="intro">Intro</string>
+    <string name="settings">Configuration</string>
+    <string name="about">A propos</string>
+    <string name="title_template_step">Etape </string>
+    <string name="navigation_drawer_open">Ouvrir tiroir</string>
+    <string name="navigation_drawer_close">Fermer tiroir</string>
+    <string name="action_settings">Configuration</string>
+    <string name="title_activity_settings">Configuration</string>
+    <string name="title_activity_about_activity">A propos de C5V</string>
+    <string name="C5VAbout">C5V\nCapture,Stockage et Visualisation de vos données CSV.\nVisitez www.MyWorkingApp.com/c5v pour plus d\'info et d\'aide\n\n\n\n\n\n\nIcones par www.icons4android.com sous Creative Commons BY 3.0\n©2016 www.MyWorkingApp.com\n\n</string>
+    <string name="exit">Quitter</string>
+    <string name="nextButton">Suivant</string>
+    <string name="generalSettingHeader">Général</string>
+    <!-- Actions -->
+    <string name="action_previous">Précédent</string>
+    <string name="action_next">Suivant</string>
+    <string name="action_finish">Terminer</string>
+    <!-- labels -->
+    <string name="labelStart">Démarrer C5V</string>
+    <!-- intro slide text -->
+    <string name="start_intro">Intro</string>
+    <string name="action_about">A propos</string>
+
+    <string name="intro_text1"><![CDATA[ <b><H>Qu\'est ce queC5V?</H></b><small><br/>
+•	Acquisition de données CSV développées par coGNiT
+Vous avez accés a :<br>
+- Capture de données ,<br>
+- Stockage de données ,<br>
+- Vision et export de données ,<br>le tout offline sans besoin de connections lors de l\'acquisition.<br>
+  ]]></string>
+    <string name="intro_text2"><![CDATA[ <b>A savoir…</b><small><br/>
+Nous sommes aussi conscients du caractère spécifique des supports utilisés (téléphones/tablettes).<br>
+C5V a été testé sur de nombreuses tablettes et téléphones, mais nous apprécions votre contribution et vous encourageons à nous contacter  si vous avez des recommandations, découvrez un
+problème ou souhaiter une amélioration.<br>
+Note: aucune donnée, image ou vidéo n\'est conservée ou partagée..<br>
+  ]]></string>
+    <string name="intro_text3">
+  <![CDATA[ <b>Pour en savoir plus</b><br/><small>
+Supportez le développement de ce type application en achetant la version illimitée de C5V.<br>
+
+Visitez notre site:<br>
+http://www.MyWorkingApp.com/c5v<br>
+
+Nous souhaitons sincèrement que cette app réussisse à jouer son rôle, et nous nous engageons à l’améliorer autant que possible.<br>
+Nous apprécions aussi les témoignages positifs surtout si C5V vous a aidé<br>
+]]>
+</string>
+
+    <string name="free_dialog_title">C5V version gratuite</string>
+    <string name="free_dialog_body">Fonctionnement limité a 10 enregistrements et export d\'un seul enregistrement. Version illimitée avec la version payante de C5V disponible sur Google Play.</string>
+
+    <string name="copyrights">©2015 MyWorkingApp.com</string>
+    <string name="title_activity_license_check" >Vérification licence</string>
+
+
+    <string name="check_license">Vérifie licence</string>
+    <string name="checking_license">Vérification licence...</string>
+    <string name="dont_allow">Accès non autorisé</string>
+    <string name="allow">Permettre accés</string>
+    <string name="application_error">Erreur application : %1$s</string>
+    <!-- Unlicensed dialog messages -->
+    <string name="unlicensed_dialog_title">C5V  sans licence.</string>
+    <string name="unlicensed_dialog_body">C5V sans licence. Achetez C5V sur Google Play.</string>
+    <string name="buy_button">Acheter</string>
+    <string name="quit_button">Quitter</string>
+    <string name="Yes">Oui</string>
+    <string name="No">Non</string>
+    <string name="action_exit">Quitter</string>
+    <string name="AboutText">A propos... </string>
+    <string name="action_add">Ajouter</string>
+    <string name="action_delete">Effacer</string>
+    <string name="action_edit">Editer</string>
+    <string name="action_delete_all">Effacer tout</string>
+    <string name="title_activity_add">Créer nouvelle entrée</string>
+    <string name="title_activity_maps">Cartes</string>
+    <string name="title_activity_map">Carte</string>
+    <string name="action_share">Export</string>
+    <string name="audio_label">Audio</string>
+    <string name="photo_label">photo</string>
+    <string name="pen_label">NeoPen</string>
+    <string name="video_label">Vidéo</string>
+    <string name="location_access_rq">C5V a besoin de votre localisation pour améliorer ses données.Donnez vous accés a votre localisation?</string>
+    <string name="yes">Oui</string>
+    <string name="no">Non</string>
+    <string name="title">Titre</string>
+    <string name="title_hint">Titre ....</string>
+    <string name="text_hint">Entrer votre texte</string>
+    <string name="pen_notyet">Non implementé</string>
+    <string name="action_switch">Titre-Heure</string>
+    <string name="chooser_audio_title">Choix audio:</string>
+    <string name="chooser_photo_title">Choix photo:</string>
+    <string name="chooser_video_title">Choix vidéo:</string>
+</resources>

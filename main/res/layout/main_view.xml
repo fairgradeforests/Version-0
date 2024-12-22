@@ -1,0 +1,53 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context="com.MyWorkingApp.C5V.MainActivity">
+
+    <ImageButton
+        android:layout_width="49dp"
+        android:layout_height="49dp"
+        android:id="@+id/imageButtonAdd"
+        android:layout_gravity="left|bottom"
+        android:longClickable="false"
+        android:src="@drawable/ic_action_new"
+        android:onClick="addButtonOnClick" />
+
+    <ImageButton
+        android:layout_width="40dp"
+        android:layout_height="49dp"
+        android:id="@+id/imageButtonMap"
+        android:layout_gravity="right|bottom"
+        android:src="@drawable/globe24"
+        android:onClick="mapButtonOnClick" />
+
+    <ImageButton
+        android:layout_width="49dp"
+        android:layout_height="49dp"
+        android:id="@+id/imageButtonDelete"
+        android:layout_gravity="center_horizontal|bottom"
+        android:src="@drawable/ic_action_remove"
+        android:onClick="deleteButtonOnClick" />
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView"
+        android:layout_gravity="left|bottom"
+        android:layout_marginBottom="40dp">
+
+        <GridLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginBottom="50dp">
+
+            <ListView
+                    android:layout_width="wrap_content"
+                    android:layout_height="477dp"
+                    android:id="@android:id/list"
+                    android:groupIndicator="@null"
+                    android:layout_gravity="center_horizontal|top"
+                    android:headerDividersEnabled="true" />
+        </GridLayout>
+    </ScrollView>
+</FrameLayout>

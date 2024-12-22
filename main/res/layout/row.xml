@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:id="@+id/rowLinearLayout">
+
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/checkBox"
+        android:layout_gravity="center_vertical"
+        android:saveEnabled="false"
+        />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp">
+
+        <TextView
+            style="@style/Base.TextAppearance.AppCompat.Small"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/timeView"
+            android:singleLine="true"
+            android:layout_gravity="center_vertical"
+            android:maxLines="2"
+            android:minLines="2"
+            android:foreground="@android:color/primary_text_light"
+            android:background="#F9FFA8" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/dateView"
+            android:singleLine="true"
+            android:layout_gravity="center_vertical"
+            android:maxLines="2"
+            android:minLines="2"
+            style="@style/Base.TextAppearance.AppCompat.Small"
+            android:foreground="@android:color/primary_text_light" />
+
+    </LinearLayout>
+
+
+    <ImageButton
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/imageButtonText"
+        android:src="@drawable/text_icon" />
+
+    <ImageButton
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/imageButtonPen"
+        android:src="@drawable/ic_action_edit" />
+
+    <ImageButton
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/imageButtonAudio"
+        android:clickable="true"
+        android:src="@drawable/loudspeaker" />
+
+    <ImageButton
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/imageButtonPhoto"
+        android:clickable="true"
+        android:src="@drawable/ic_action_photo" />
+
+    <ImageButton
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/imageButtonVideo"
+        android:clickable="true"
+        android:src="@drawable/ic_action_video" />
+
+    <ImageButton
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/imageButtonGPS"
+        android:clickable="true"
+        android:src="@drawable/world_map" />
+
+</LinearLayout>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+    xmlns:msxsl="urn:schemas-microsoft-com:xslt" exclude-result-prefixes="msxsl"
+    >
+    <xsl:output method="html" indent="yes"/>
+
+    <xsl:template match="/C5VRecords">
+        <html>
+            <body>
+
+                <h1>C5V app data export <br/>
+                    <xsl:value-of select="ReportDate"/></h1>
+                <h2>Retrieved data:</h2>
+                <table border="1">
+                    <tr bgcolor="#9acd32">
+                        <th>TimeStamp</th>
+                        <th>Location</th>
+                        <th>Title</th>
+                        <th>Text</th>
+                        <th>Audio</th>
+                        <th>Photo</th>
+                        <th>Video</th>
+                        <th>NeoPen</th>
+                    </tr>
+                    <xsl:for-each select="C5VRecord">
+                        <tr>
+                            <td>
+                                <xsl:value-of select="Date"/>
+                            </td>
+                            <td>
+                                <xsl:value-of select="Gps"/>
+                            </td>
+                            <td>
+                                <xsl:value-of select="Title"/>
+                            </td>
+                            <td>
+                                <xsl:value-of select="Text"/>
+                            </td>
+                            <td>
+                                <a href="{Audio}">
+                                    <xsl:value-of select="Audio"/>
+                                </a>
+                            </td>
+                            <td>
+                                <a href="{Photo}">
+                                    <xsl:value-of select="Photo"/>
+                                </a>
+                            </td>
+                            <td>
+                                <a href="{Video}">
+                                    <xsl:value-of select="Video"/>
+                                </a>
+                            </td>
+                            <td>
+                                <a href="{Pen}">
+                                    <xsl:value-of select="Pen"/>
+                                </a>
+                            </td>
+                        </tr>
+                    </xsl:for-each>
+                </table>
+                <a href="http://www.MyWorkingApp.com/c5v/index.html">Provided by MyWorkingApp</a>
+                <br/>
+                Get the app from the Android stores: Google Play or Amazon
+                <br/>
+                <a href="http://www.MyWorkingApp.com">©2015 MyWorkingApp.com</a>
+            </body>
+        </html>
+    </xsl:template>
+
+</xsl:stylesheet>

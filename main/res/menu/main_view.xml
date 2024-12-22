@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+tools:context="com.softoz.C5V.MainActivity">
+
+
+    <item
+        android:id="@+id/menu_item_share"
+        android:showAsAction="ifRoom"
+        android:orderInCategory="5"
+        android:title="Share"
+        android:actionProviderClass=
+            "android.widget.ShareActionProvider" />
+    <item
+        android:id="@+id/action_add"
+        android:icon="@drawable/ic_action_new"
+        android:orderInCategory="10"
+        android:showAsAction="ifRoom"
+        android:title="@string/action_add" />
+    <item
+        android:id="@+id/action_delete"
+        android:icon="@drawable/ic_action_remove"
+        android:orderInCategory="20"
+        android:showAsAction="ifRoom"
+        android:title="@string/action_delete" />
+    <item
+        android:id="@+id/action_delete_all"
+        android:icon="@drawable/delete_database"
+        android:orderInCategory="30"
+        android:showAsAction="ifRoom"
+        android:title="@string/action_delete_all" />
+    <item
+        android:id="@+id/action_switch"
+        android:orderInCategory="40"
+        android:title="@string/action_switch" />
+    <item
+        android:id="@+id/action_intro"
+        android:icon="@drawable/ic_info"
+        android:orderInCategory="50"
+        android:showAsAction="ifRoom"
+        android:title="@string/start_intro" />
+    <item
+        android:id="@+id/action_about"
+        android:icon="@drawable/ic_action"
+        android:orderInCategory="60"
+        android:showAsAction="ifRoom"
+        android:title="@string/action_about" />
+    <!--
+    <item
+        android:id="@+id/action_share"
+        android:icon="@drawable/ic_action_share"
+        android:orderInCategory="60"
+        android:showAsAction="ifRoom"
+        android:title="@string/action_share" />
+
+
+        item
+        android:id="@+id/action_edit"
+        android:icon="@drawable/ic_action_edit"
+        android:orderInCategory="50"
+        android:showAsAction="ifRoom"
+        android:title="@string/action_edit" />-->
+<item
+    android:id="@+id/action_exit"
+    android:icon="@android:drawable/ic_menu_close_clear_cancel"
+    android:orderInCategory="70"
+    android:showAsAction="ifRoom"
+    android:title="@string/action_exit" />
+</menu>
